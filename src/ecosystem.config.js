@@ -18,7 +18,7 @@ module.exports = {
       watch: false,
       autorestart: false,
       instances: 1,
-      cron_restart: '0,5 3 * * Sunday,Monday',
+      cron_restart: '0,5 3 * * 0',
     },
   ],
 };
