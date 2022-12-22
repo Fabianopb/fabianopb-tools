@@ -14,7 +14,7 @@ module.exports = {
     },
     {
       name: 'mongo-backup',
-      script: 'tools/backupMongo/index.js',
+      script: 'backupMongo/index.js',
       watch: false,
       autorestart: false,
       instances: 1,
