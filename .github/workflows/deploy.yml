@@ -30,7 +30,7 @@ jobs:
       run: yarn build
 
     - name: Copy modules into dist
-      run: cp -r node_modules build/node_modules
+      run: cp -r node_modules build/tools/node_modules
 
     - name: Deploy to EC2
       uses: easingthemes/ssh-deploy@v2
